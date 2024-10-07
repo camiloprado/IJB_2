@@ -1,0 +1,58 @@
+.parent-container {
+	display: flex;
+	font-family: "Switzerland";
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-sizing: border-box;
+	column-gap: 5rem;
+}
+
+.main-image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover; /* A imagem cobrirá o contêiner de maneira proporcional */
+	background-position: center;
+	width: 100%; /* Certifique-se de que o contêiner de imagem ocupe 100% da largura */
+	height: 400px;
+}
+
+.yellow-box {
+	background-color: #ffc72c;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: fit-content;
+    padding: 30px;
+	max-width: 550px;
+    min-height: 700px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+	margin-top: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+}
+
+div > input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
